@@ -1,4 +1,4 @@
-# Video: https://youtube.com/shorts/U3pQNbivbO8?feature=share
+# Video: https://youtube.com/shorts/hkY7HuaxGY0?feature=share
 
 
 # Tutorial
@@ -40,6 +40,12 @@ Servo         | 3
 ![wiring diagram]( https://github.com/ROBTRT421/Control-de-acceso-RFID-con-Arduino/blob/main/Plano%20RFID.png "wiring diagram")
 
 El orden exacto de los pines para el RC522 o el SERVO puede ser diferente del que se muestra en la imagen, así que sea inteligente y use la tabla anterior.
+
+# INPORTANTE
+Todas los tags de acceso, ya vienen configuradas de fabrica, para poder darles el acceso desde el IDLE de Arduino hay
+que configurarlas, en la linea 16 y 17 del codigo vienen los tags de acceso, basta con abrir el "serial monitor" una vez desarrollado el proyecto leer la tarjeta y de forma manual, poner el "Card UID" del tag en las lineas del codigo antes mencionadas 
+EJEMPLO : {0xC1, 0xBB, 0x7E, 0x21}; ese es el tag que viene en el codigo y ustedes solo modificaran los ultimos dos digitos con los que 
+viene su tag configurado.
 
 
 
