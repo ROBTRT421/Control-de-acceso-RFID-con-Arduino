@@ -1,0 +1,19 @@
+-**RFID**
+SDA -> pin10
+SCK -> pin13
+MOSI -> pin11
+MISO -> pin12
+IRQ -> *
+GND -> gnd (R3)
+RST -> pin9
+3.3v -> 3.3v (R3)
+-**LED ROJO**
+positivo -> pin5
+negativo -> GND R3 (resist 220 oms)
+-**LED VERDE**
+positivo -> pin4
+negativo -> GND R3 (resistencia 220 oms)
+-**SERVO**
+PWM -> pin3
+positivo -> positivo 5v (R3)
+negativo -> negativo gnd (R3)
